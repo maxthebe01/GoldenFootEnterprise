@@ -129,6 +129,7 @@ shop-btn:hover {
 #hero {
     background: url('mining-bg.jpg') center/cover no-repeat;
     color: grey;
+    text-color:black;
     text-align: center;
     padding: 120px 20px;
     margin-top: 60px;
