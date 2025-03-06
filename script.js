@@ -3,6 +3,8 @@ function showMessage() {
 }
 
 function toggleMenu() {
-    const menu = document.getElementById("menu");
-    menu.classList.toggle("show");
-}
+        const nav = document.querySelector('nav');
+        nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+    }
+
+
