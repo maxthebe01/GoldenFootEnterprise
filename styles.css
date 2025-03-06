@@ -37,32 +37,12 @@ nav a {
 
 /* Mobile Menu */
 @media (max-width: 768px) {
+    nav {
+                display: flex;
+            }
     .menu-toggle {
-        display: block;
-    }
-    .hamburger {
-      display: block;
-          }
-
-    nav ul {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        background-color: #333;
-        width: 100%;
-        text-align: center;
-    }
-
-    nav ul li {
-        display: block;
-        padding: 10px;
-    }
-
-    nav ul.show {
-        display: flex;
-    }
+                display: none;
+            }
 }
 
 /* Hero Section */
