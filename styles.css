@@ -134,4 +134,15 @@ nav a:hover {
             }
         }
 
+/* Sections */
+#about, #contact {
+    text-align: center;
+    padding: 40px 20px;
+}
 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
