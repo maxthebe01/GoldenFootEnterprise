@@ -35,15 +35,6 @@ nav a {
         cursor: pointer;
         }
 
-/* Mobile Menu */
-@media (max-width: 768px) {
-    nav {
-                display: flex;
-            }
-    .menu-toggle {
-                display: none;
-            }
-}
 
 /* Hero Section */
 #hero {
@@ -89,22 +80,13 @@ nav a {
     border-radius: 5px;
 }
 
-/* Responsive Grid */
-@media (max-width: 768px) {
-    .product {
-        width: 90%;
-    }
-}
+@media (min-width: 768px) {
+            nav {
+                display: flex;
+            }
+            .menu-toggle {
+                display: none;
+            }
+        }
 
-/* Sections */
-#about, #contact {
-    text-align: center;
-    padding: 40px 20px;
-}
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
